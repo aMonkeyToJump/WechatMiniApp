@@ -1,0 +1,18 @@
+/* pages/future/future.wxss */
+.future-checkbox{
+  margin-bottom: 5%;
+}
+.checkbox{
+  margin-left: 8%;
+}
+.checkbox-content{
+  margin-left: 10%;
+}
+
+.page-input{
+  height:40%;
+}
+.todo-input{
+  border: 1px solid bisque;
+  margin-bottom: 4%;
+}

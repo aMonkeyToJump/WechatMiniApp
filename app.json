@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/future/future"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#6cbb52",
+    "backgroundColor": "#eeeeee",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "Memory",
+        "iconPath": "icon/mine/fire.png",
+        "selectedIconPath": "icon/mine/fire_s.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "Us",
+        "iconPath": "icon/mine/beer.png",
+        "selectedIconPath": "icon/mine/beer_s.png"
+      },
+      {
+        "pagePath": "pages/future/future",
+        "text": "future",
+        "iconPath": "icon/mine/water.png",
+        "selectedIconPath": "icon/mine/water_s.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

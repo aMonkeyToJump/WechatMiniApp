@@ -1,0 +1,39 @@
+.page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+.page-swiper{
+  height: 400px;
+}
+.swiper{
+  margin-top: 20px; 
+  height: 100%;
+}
+.swiper-item{
+  width: 100%;
+  text-align: center;
+}
+.swiper-img{
+  width: 90%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.page-upload{
+  margin-top: 3%;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.page-upload-left{
+  width: 40%;
+}
+.page-upload-right{
+  width: 40%;
+}
+.page-upload-image{
+  width: 100%;
+  height: 100%;
+}

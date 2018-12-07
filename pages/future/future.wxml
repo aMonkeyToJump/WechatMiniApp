@@ -1,0 +1,17 @@
+<!--pages/future/future.wxml-->
+   <view>
+     <checkbox-group bindchange="checkboxChange">
+      <view class="future-checkbox" wx:for="{{checkboxItems}}">
+        <label>
+          <checkbox id="{{item.id}}" class="checkbox" value="{{item.content}}" checked="{{item.checked}}"></checkbox>
+          <text class="checkbox-content" style="color:{{item.checked ? '#6cbb52': 'black'}}">{{item.content}}</text>           
+        </label>
+      </view>
+    </checkbox-group> 
+    <view>
+    <form bindsubmit="formSubmit">
+      <input name="mingcheng" type='text' placeholder='请输入内容。。。。。' value='后悔创办Jack Ma' />
+      <button formType="submit">Submit</button>
+    </form>
+    </view>
+  </view>

@@ -1,0 +1,21 @@
+<!--pages/mine/mine.wxml-->
+<!-- <view class = "page"> -->
+  <view class="page-swiper">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item class="swiper-item">
+          <image class="swiper-img" src="{{item}}" mode="{{mode}}"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- <view class="page-upload">
+    <view class="page-upload-left">
+      <button >上传照片</button>
+    </view>
+    <view class="page-upload-right">
+      <button bindtap='down_load'>下载照片</button>
+    </view>
+  </view> -->
+<!-- </view> -->
